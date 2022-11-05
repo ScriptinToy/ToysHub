@@ -2,6 +2,10 @@ local success, errorr = pcall(function()
     local list = {
         ["https://raw.githubusercontent.com/ScriptinToy/anime-sim/main/script"] = 3102144307, --  Anime Clicker
         ["https://raw.githubusercontent.com/ScriptinToy/ToysHub/main/SilentAim"] = 621129760, -- Knife Ability Test
+        ["https://raw.githubusercontent.com/ScriptinToy/ToysHub/main/Type%20or%20Die"] = 11238892040 -- Type or Die
+        ["https://raw.githubusercontent.com/ScriptinToy/ToysHub/main/Retail%20Tycoon"] = 5865858426 -- Retail Tycoon
+        ["https://raw.githubusercontent.com/ScriptinToy/ToysHub/main/Rarity%20Factory%20Tycoon"] = 10919241870 -- Rarity Factory Tycoon
+        ["https://raw.githubusercontent.com/ScriptinToy/ToysHub/main/Robot%20Tycoon"] = 10828925984 -- Robot Tycoon
     }
     for k, v in next, list do
         if game.PlaceId == v then
