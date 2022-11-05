@@ -6,6 +6,8 @@ local success, errorr = pcall(function()
         ["https://raw.githubusercontent.com/ScriptinToy/ToysHub/main/Retail%20Tycoon"] = 5865858426 -- Retail Tycoon
         ["https://raw.githubusercontent.com/ScriptinToy/ToysHub/main/Rarity%20Factory%20Tycoon"] = 10919241870 -- Rarity Factory Tycoon
         ["https://raw.githubusercontent.com/ScriptinToy/ToysHub/main/Robot%20Tycoon"] = 10828925984 -- Robot Tycoon
+        ["https://raw.githubusercontent.com/ScriptinToy/ToysHub/main/Drive%20Car%20Down%20Hill"] = 9414511685 -- Drive Cars Down A Hill
+        ["https://raw.githubusercontent.com/ScriptinToy/ToysHub/main/Build%20A%20Boat%20For%20Treasure"] = 537413528 --Build A Boat For Treasure
     }
     for k, v in next, list do
         if game.PlaceId == v then
@@ -19,4 +21,3 @@ if errorr then
 else
     warn("ToysHub Hub v1.0 Loaded, Should be working fine")
 end
-
